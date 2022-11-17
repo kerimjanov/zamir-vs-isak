@@ -1,0 +1,25 @@
+@mixin center{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@mixin start{
+  display: flex;
+  align-items: center;
+}
+@mixin btn{
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  border-radius: 9px;
+  padding: 10px 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFF;
+  &:hover{
+    background: #8F7CEC;
+    color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 50px #8F7CEC,0 0 100px #8F7CEC;
+  }
+}
+
