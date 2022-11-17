@@ -21,4 +21,17 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body.dark {
+  background: #343a40;
+  color: #fff;
+  transition: 0.5s;
+}
+
+body.dark button {
+  background: #343a40;
+  color: #fff;
+  transition: 0.4s;
+  border: 2px solid white;
+}
+
 /*# sourceMappingURL=global.css.map */

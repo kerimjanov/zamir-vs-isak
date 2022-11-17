@@ -16,3 +16,15 @@ button{
 body{
   font-family: 'Poppins', sans-serif;
 }
+body.dark {
+  background: #343a40;
+  color: #fff;
+  transition: .5s;
+}
+
+body.dark button {
+  background: #343a40;
+  color: #fff;
+  transition: .4s;
+  border: 2px solid white;
+}
