@@ -1,7 +1,62 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-body{
-  background: yellow;
+@import "global";
+@import "mixin";
+@import "veraibles";
+
+#hero{
+  padding-top: 5%;
+  .hero{
+    @include center();
+
+    &--saw{
+      h1{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: $reb;
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color:$reb;
+        padding: 20px 0;
+      }
+      input{
+        padding: 15px 30px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: $reb;
+        border-radius: 10px;
+      }
+    }
+    &--sav {
+
+      input {
+        padding: 35px 163px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: $reb;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $reb;
+        padding: 20px 0;
+      }
+
+      button {
+        @include btn();
+      }
+    }
+      img{
+        width: 520px;
+    }
+  }
 }
