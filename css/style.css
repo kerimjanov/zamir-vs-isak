@@ -3,8 +3,99 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
 body {
-  background: yellow;
+  font-family: "Poppins", sans-serif;
+}
+
+body.dark {
+  background: #343a40;
+  color: #fff;
+  transition: 0.5s;
+}
+
+body.dark button {
+  background: #343a40;
+  color: #fff;
+  transition: 0.4s;
+  border: 2px solid white;
+}
+
+#hero {
+  padding-top: 5%;
+}
+#hero .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero--saw h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333;
+}
+#hero .hero--saw p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  padding: 20px 0;
+}
+#hero .hero--saw input {
+  padding: 15px 30px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  border-radius: 10px;
+}
+#hero .hero--sav input {
+  padding: 35px 163px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#hero .hero--sav p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  padding: 20px 0;
+}
+#hero .hero--sav button {
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  border-radius: 9px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+#hero .hero--sav button:hover {
+  background: #8F7CEC;
+  color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #8F7CEC, 0 0 50px #8F7CEC, 0 0 100px #8F7CEC;
+}
+#hero .hero img {
+  width: 520px;
 }
 
 /*# sourceMappingURL=style.css.map */
